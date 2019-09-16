@@ -1,0 +1,155 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    >
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+    />
+
+
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/black" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/banana" />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager3"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/black" />
+
+    <RelativeLayout
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="500dp" />
+
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:visibility="invisible" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager4"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/black" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager5"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/banana" />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager6"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/black" />
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="@color/white">
+
+    <!--   <ImageButton
+           android:id="@+id/imageButton1"
+           android:layout_width="85dp"
+           android:layout_height="85dp"
+           android:layout_gravity="left"
+           android:padding="0dp"
+           app:srcCompat="@drawable/marker" />
+       <ImageButton
+           android:id="@+id/imageButton2"
+           android:layout_width="85dp"
+           android:layout_height="85dp"
+           android:layout_gravity="center"
+           android:padding="0dp"
+           android:elevation="10dp"
+           app:srcCompat="@drawable/s" />
+
+       <ImageButton
+           android:id="@+id/imageButton3"
+           android:layout_width="85dp"
+           android:layout_height="85dp"
+           android:layout_gravity="right"
+           android:padding="0dp"
+           ima
+           app:srcCompat="@drawable/emergency" />
+
+-->
+
+
+
+       <ImageButton
+           android:id="@+id/button1"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:text="그리기시작"
+           android:scaleType="fitXY"
+           android:src="@drawable/drawstart"
+           android:background="@drawable/button"/>
+
+     <ImageButton
+           android:id="@+id/button2"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+
+           android:text="그리기마침"
+           android:scaleType="fitXY"
+           android:src="@drawable/drawend"
+           android:background="@drawable/button"/>
+       <ImageButton
+           android:id="@+id/button3"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+
+           android:text="GPS ON/OFF"
+           android:scaleType="fitXY"
+           android:src="@drawable/gpsonoff"
+           android:background="@drawable/button"/>
+
+       <ImageButton
+           android:id="@+id/button4"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+
+           android:text="시작"
+           android:scaleType="fitXY"
+           android:src="@drawable/startbutton"
+           android:background="@drawable/button"/>
+
+       <ImageButton
+           android:id="@+id/button5"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+
+           android:text="긴급호출"
+           android:scaleType="fitXY"
+           android:src="@drawable/emergencybutton"
+           android:background="@drawable/button"/>
+
+   </LinearLayout>-->
+
+
+
+</LinearLayout>

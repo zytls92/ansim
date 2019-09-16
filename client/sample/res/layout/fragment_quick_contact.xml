@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_above="@+id/button1"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="-192dp"
+                android:layout_marginLeft="230dp"
+                android:background="#77000000"
+                android:paddingTop="10dip"
+                android:paddingLeft="40dip"
+                android:paddingRight="0dip"
+                android:text="메뉴"
+
+                android:textColor="#FFFFFFFF"
+                android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button1"
+
+            android:layout_marginLeft="220dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="192dp"
+            android:paddingLeft="0dip"
+            android:paddingRight="0dip"
+            android:text="친구추가"
+            android:textSize="20sp" />
+            />
+        <Button
+            android:id="@+id/button2"
+
+            android:layout_marginLeft="220dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button1"
+            android:paddingLeft="0dip"
+            android:paddingRight="0dip"
+            android:text="즐겨찾기"
+            android:textSize="20sp" />
+          />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_marginLeft="220dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button2"
+            android:paddingLeft="0dip"
+            android:paddingRight="0dip"
+
+            android:text="설정"
+            android:textSize="20sp" />
+            />
+
+        <Button
+            android:id="@+id/button4"
+
+            android:layout_marginLeft="220dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button3"
+            android:paddingLeft="0dip"
+            android:paddingRight="0dip"
+            android:text="종료"
+            android:textSize="20sp" />
+            />
+
+
+        android:layout_marginLeft="220dp"
+        <Button
+            android:id="@+id/button5"
+
+            android:layout_marginLeft="220dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button4"
+            android:paddingLeft="0dip"
+            android:paddingRight="0dip"
+            android:text="Button"
+            android:textSize="20sp" />
+            />
+
+        <Button
+            android:id="@+id/경로즐겨찾기5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="220dp"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentTop="false"
+            android:paddingLeft="0dip"
+            android:paddingRight="0dip"
+            android:text="Button"
+            android:textSize="20sp" />
+            />
+        </LinearLayout>
+
+</RelativeLayout>
